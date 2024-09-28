@@ -1,0 +1,17 @@
+INDEX.HTML
+<html>
+<head>
+ <title>My First Website</title>
+<link rel="stylesheet" href="style.css"?>
+</head>
+<body>
+ <img src=""alt=""/>
+</body>
+</html>
+
+
+CSS
+****
+.asta {
+width:600px;
+}

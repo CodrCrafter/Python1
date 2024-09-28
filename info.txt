@@ -1,0 +1,71 @@
+def insertMenuList(request):
+    if(request.method=="POST"):
+        s1=request.POST.get("t1")
+        s2=request.POST.get("t2")
+        s3 = request.POST.get("t3")
+        s4 = request.POST.get("t4")
+ 		s5 = request.POST.get("t5")
+        MenuList.objects.create(menu_type=s1,item_name=s2,unit_price=s3,availability_time=s4,image=s5)
+        return render(request,"menuList.html")
+
+    return render(request,"menuList.html")
+
+def viewMenuList(request):
+	MenuList.objects.all()
+        return render(request,"menuList.html")
+-----------------------------------------------------
+def insertCustomerDetail(request):
+    if(request.method=="POST"):
+        s1=request.POST.get("t1")
+        s2=request.POST.get("t2")
+        s3 = request.POST.get("t3")
+        s4 = request.POST.get("t4")
+        s5 = request.POST.get("t5")
+        s6 = request.POST.get("t6")
+        CustomerDetail.objects.create(customer_name=s1,address=s2,pincode=s3,email=s4,password=s5,phone_no=s6)
+        return render(request,"customerdetail.html")
+
+    return render(request,"customerdetail.html")
+
+def viewCustomerDetail(request):
+	CustomerDetail.objects.all()
+        return render(request,"customerdetail.html")
+---------------------------------------------------------
+
+def insertBillInfo(request):
+    if(request.method=="POST"):
+        s1=request.POST.get("t1")
+        s2=request.POST.get("t2")
+        s3 = request.POST.get("t3")
+        s4 = request.POST.get("t4")
+ 		s5 = request.POST.get("t5")
+		 s6 = request.POST.get("t6")
+        BillInfo.objects.create(customer_id=s1,bill_no=s2,bill_date=s3,item=s4,qty=s5,grand_total=s6)
+        return render(request,"bill.html")
+
+    return render(request,"bill.html")
+
+def viewBillInfo(request):
+	BillInfo.objects.all()
+        return render(request,"bill.html")
+----------------------------------------------------
+
+def insertFeedback(request):
+    if(request.method=="POST"):
+        s1=request.POST.get("t1")
+        s2=request.POST.get("t2")
+        s3 = request.POST.get("t3")
+        Feedback.objects.create(customer_id=s1,about_service=s2,suggestions=s3)
+        return render(request,"feedback.html")
+
+    return render(request,"feedback.html")
+
+def viewFeedback(request):
+	Feedback.objects.all()
+        return render(request,"feedback.html")
+---------------------------------------------------------------------
+
+
+
+
+

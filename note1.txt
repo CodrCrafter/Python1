@@ -1,0 +1,135 @@
+27/10/23
+*********
+1.Write program to find sum of 2 numbers.
+2.Write program to read 2 numbers find the sum and product.
+3.Write program to read radius and find area of circle.
+4.Write program to read 2 numbers and interchange or swap them in different ways
+->a)a,b=b,a
+    print("after swap")
+b)a=a*b
+  b=a/b
+  a=b/a
+c)a=a+b
+  b=a-b
+  a=a-b
+d)temp=a
+  a=b
+  b=temp
+##############################################
+
+30/10/23
+********
+CSS(cascading style sheets)
+
+it is used to define for web pages.along with html,css will allow us to create attractive websites.
+it saves a lot of time as they control layout of multiple webpages.
+
+CSS syntax or rules
+
+p{color:red;font-size:20px;}
+boder:3px solid red;
+
+python
+*******
+Output statements:-
+in python we can display the output by using print statements.
+print statements is in 4 different types:
+1)Double quots
+eg:print("hello")
+2)Single quots
+eg:print('hello')
+3)Triple quots
+egprint("""hello""")
+4)Triple single quot
+eg:print('''hello''')
+
+*In python hash is used for single line comment.
+Few multiple line comment
+Conditional statements are used to check the condition for every condition there will be a 2 possibilities i.e True or False
+If condition is true,it is going to execute immediate statements of if condition
+If condition is false, it will excute else part.
+*To work with conditional statement if and loop are introduced.
+  1)if:It is used to check condition which takes a parameter as condition.
+    if the condition is true ,immediate statements will be exicuted.
+    if the condition is false,it will exicuted else part.
+
+if(condition):
+    true code
+else:
+    false code
+
+EXAMPLES:-
+---------
+
+1)Write a program to find even or odd.
+
+num=int(input("enter the value")
+if(num%2==0)
+  print("even")
+else:
+  print("odd")
+
+2)write a prg to read 2 num & find greatest of number.
+
+a=int(input("enter the number")
+b=int(input("enter the number")
+if(a>b)
+ print("a is greater")
+else:
+ print("b is greater")
+
+3)write prg to read marks from user & display the results w.r.t the marks.
+
+m=int(input("enter the marks")
+if(m>=35):
+ print("pass")
+elif(m>50 and m<60):
+ print("first class")
+elif(m>60 and m<75)
+ print("second class")
+elif(m>75 and m<100):
+ print("distinction")
+else:
+ print("fail")
+
+4)write prg to read a num & check is it divisible by 3 and 5
+
+num=int(input("enter the number")
+if(num%3==0)
+ print("divisible by 3")
+else:
+ print("not divisible by 3")
+if(num%5==0)
+  print("divisible by 5")
+else:
+  print("not divisible by 5")
+
+5)write prg to read a num & display following messages
+*if the num divides by 3 ,display hi
+*if the num divides by 5 ,display hello
+*if the num divides by 3&5 ,display hi & hello
+
+num=int(input("enter the number")
+if(num%3==0)
+ print("hi)
+elif(num%5==0)
+ print("hello")
+elif(num%3==0 and num%5==0)
+ print("hi hello")
+
+6)write a prg to read age from user & check is the user is elligible for voting.
+
+age=int(input("enter age")
+if(age>=18)
+  print("elligible")
+else:
+  print("not elligible")
+
+7)write prg to read 4 numbers & find greatest & lowest num.
+
+Loops:To repeate the same statements again & again loops are used.
+
+
+
+
+ 

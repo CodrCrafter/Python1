@@ -1,0 +1,804 @@
+27/10/23
+*********
+1.Write program to find sum of 2 numbers.
+2.Write program to read 2 numbers find the sum and product.
+3.Write program to read radius and find area of circle.
+4.Write program to read 2 numbers and interchange or swap them in different ways
+->a)a,b=b,a
+    print("after swap")
+b)a=a*b
+  b=a/b
+  a=b/a
+c)a=a+b
+  b=a-b
+  a=a-b
+d)temp=a
+  a=b
+  b=temp
+##############################################
+
+30/10/23
+********
+CSS(cascading style sheets)
+
+it is used to define for web pages.along with html,css will allow us to create attractive websites.
+it saves a lot of time as they control layout of multiple webpages.
+
+CSS syntax or rules
+
+p{color:red;font-size:20px;}
+boder:3px solid red;
+
+python
+*******
+Output statements:-
+in python we can display the output by using print statements.
+print statements is in 4 different types:
+1)Double quots
+eg:print("hello")
+2)Single quots
+eg:print('hello')
+3)Triple quots
+egprint("""hello""")
+4)Triple single quot
+eg:print('''hello''')
+
+*In python hash is used for single line comment.
+Few multiple line comment
+Conditional statements are used to check the condition for every condition there will be a 2 possibilities i.e True or False
+If condition is true,it is going to execute immediate statements of if condition
+If condition is false, it will excute else part.
+*To work with conditional statement if and loop are introduced.
+  1)if:It is used to check condition which takes a parameter as condition.
+    if the condition is true ,immediate statements will be exicuted.
+    if the condition is false,it will exicuted else part.
+
+if(condition):
+    true code
+else:
+    false code
+
+EXAMPLES:-
+---------
+
+1)Write a program to find even or odd.
+
+num=int(input("enter the value")
+if(num%2==0)
+  print("even")
+else:
+  print("odd")
+
+2)write a prg to read 2 num & find greatest of number.
+
+a=int(input("enter the number")
+b=int(input("enter the number")
+if(a>b)
+ print("a is greater")
+else:
+ print("b is greater")
+
+3)write prg to read marks from user & display the results w.r.t the marks.
+
+m=int(input("enter the marks")
+if(m>=35):
+ print("pass")
+elif(m>50 and m<60):
+ print("first class")
+elif(m>60 and m<75)
+ print("second class")
+elif(m>75 and m<100):
+ print("distinction")
+else:
+ print("fail")
+
+4)write prg to read a num & check is it divisible by 3 and 5
+
+num=int(input("enter the number")
+if(num%3==0)
+ print("divisible by 3")
+else:
+ print("not divisible by 3")
+if(num%5==0)
+  print("divisible by 5")
+else:
+  print("not divisible by 5")
+
+5)write prg to read a num & display following messages
+*if the num divides by 3 ,display hi
+*if the num divides by 5 ,display hello
+*if the num divides by 3&5 ,display hi & hello
+
+num=int(input("enter the number")
+if(num%3==0)
+ print("hi)
+elif(num%5==0)
+ print("hello")
+elif(num%3==0 and num%5==0)
+ print("hi hello")
+
+6)write a prg to read age from user & check is the user is elligible for voting.
+
+age=int(input("enter age")
+if(age>=18)
+  print("elligible")
+else:
+  print("not elligible")
+
+7)write prg to read 4 numbers & find greatest & lowest num.
+
+Loops:To repeate the same statements again & again loops are used.
+In python mainly 2 types of loops
+-->for loop & while loop
+ 1)For llop:-when we know the number of repitations we use for loop.
+for loop uses range method tells the loops how many times the loop is going to exicute.
+range has 3 different formates
+1.range with single parameter:when we pass single parameter ,it tells till what range loop will be exicuted.
+eg:if we range as 5,it will give o/p 0-4
+2.range with 2 parameter:when we pass 2 parameter 1st parameter acts as start value,2nd parameter acts as end value.
+3.range with 3 parameter:when we pass 3 parameter 1st parameter acts as start value,2nd parameter acts as end value 
+3rd parameter for increment or decrement.
+eg:
+*for i in range(5):
+   print(i)
+o/p:0,1,2,3,4
+*for i in range(5,10):
+   print(i)
+o/p:5,6,7,8,9
+*for i in range(1,10,3):
+   print(i)
+o/p:1,4,7
+*for i in range(10,1,-3):
+   print(i)
+o/p:10,7,4
+
+1)write python program to read any number & display month name in the word.
+
+m=int(input("enter the month number")
+if(m==1):
+ print("jan")
+elif(m==2):
+ print("feb")
+elif(m==3):
+ print("mar")
+elif(m==4):
+ print("apr")
+elif(m==5):
+ print("may")
+elif(m==6):
+ print("jun")
+elif(m==7):
+ print("jul")
+elif(m==8):
+ print("aug")
+elif(m==9):
+ print("sep")
+elif(m==10):
+ print("oct")
+elif(m==11):
+ print("nov")
+elif(m==12):
+ print("dec")
+
+2.write python program to read any number & display week name in the word.
+
+n=int(input("enter the week number")
+if(n==1):
+ print("sunday")
+if(n==2):
+ print("monday")
+if(n==3):
+ print("tuesday")
+if(n==4):
+ print("wendsday")
+if(n==5):
+ print("Thrday")
+if(n==6):
+ print("friday")
+if(n==7):
+ print("saturday")
+
+
+3.write python program a alphabet & check wether the given alphabet is vowel or consonant.
+A=str(input("enter the alphabet")
+if(A=='a',A=='e',A=='i',A=='o',A=='u'):
+  print("given number is vowel")
+else:
+  print("given number is consonent")
+or
+alphabet=input("enter a single alphabet")
+if len(alphabet)==1
+if alphabet in 'aeiouAEIOU':
+result="vowel"
+else:
+result="enter single alphabet"
+print("result:",result)
+
+4.write python prg to check whether a triangle is equilateral,isosceles or scalen
+print("input lenth of triangle sides:")
+x=int(input("x:"))
+y=int(input("y:"))
+z=int(input("z:"))
+if(x==y==z)
+ print("eqilateral")
+elif(x==y or y==z or z==x):
+ print("isosceles")
+else:
+ print("scalen")
+#########################################################################################
+
+31/10/23
+********
+ 
+1)write a prg to display the number from 1 to 50 which are divisible by 5.
+for i in range(50)
+ if(i%5==0):
+  print(i)
+
+2)write prg to display sum of 1 to 10.
+sum=0
+for i in range(10)
+ sum=sum+i
+ print(sum)
+
+3)write prg to find product of 1 to 10
+4)write prg to display the sum of all odd num 1 to 10
+5)write prg to display followings
+*if the num divides by 3 display i
+*if the num divides by 5 display hello
+6)write prg to read the start of loop & loop display the number from start to end
+7)write prg to display square of individuals digits 1 to 5.
+8)write prg to read 2 num from user
+*if 1st num is less than the 2nd num use increment loop
+*if 2nd num is less than the 1st num use decrement loop
+
+ 
+While loop:- if we don't no the num of repitation then we use while loop.
+in while loop initialization,increement in a sentence in a separate line.
+following eg demonstrate the simple value
+num=1
+while(num<=10):
+ print(num)
+ num=num+1
+
+Else keyword: only in python we have else statement for the loop .whenever the condition fails
+the else part will be exicuted.
+
+1)write a prg to demonstrate to break keyword.
+i=1
+while(i<10):
+ if(i==5):
+ i=i+1
+continue
+else:
+ print(i)
+ i=i+1
+
+2)write prg to read a num find sum of individuals digits.
+num=int(input("enter the num of elements")
+temp=0
+while(num>0):
+ print(temp)
+ num=num//10
+ 
+3)write prg to read a num &find sum of individuals digits
+num=int(input("enter number of elements")
+temp=0
+sum=0
+while(num>0):
+  temp=num%10
+  sum=sum+temp
+  num=num//10
+  print(sum)
+
+4)write prg to read num in reverse order
+5)write prg to read display "*"in rectangle pattern
+for i in range(4)
+for j in range(5)
+ print("*",end="")
+print()
+
+5)4)prg to disply"*" in a rectangle form
+rows= int(input("enter the number of rows"))
+colomn=int(input("enter number of colomn"))
+for i in range(rows):
+ for j in range (colomn):
+        print("*",end="")
+print()
+
+6)prg to display right angle triangle
+#for i in range(5):
+ #   for j in range(i+1):
+  #      print("*",end="")
+   # print()
+
+7)pyramid pattern triangle
+##############################################
+1/11/23
+*******
+String:-
+-------
+str="welcome to python"
+print(str)
+print(str[0])
+print(str[1:5])
+print(str.isupper())
+print(str.upper())
+print(str.isupper())
+
+Splitting:-
+---------
+str="welcome to python"
+print(str.split)
+print(str[-1])
+print(str[-3])
+print(str[-4:-1])
+s1=str.replace("python","java")
+print(str.replace("python","java"))
+print(s1)
+
+str="wel come to python"
+s2="python'in str
+print(s3)
+s4="java"not in str
+print(s4)
+
+str="wel come to python"
+print(len(str))
+s2="oop with java"
+print(s2.islower)
+print(s2.lower())
+print(str.capitalize())
+print(s2.swapcase())
+print(str.swapcase())
+print()
+print()
+2/11/23
+********
+COLLECTION CLASSES:-
+*these are dynamic classes.
+Dynamic class means the classes which stores data in run time.
+The moment exicution complets data will be removed from memory.
+python supports 4 dynamic classes
+1.lists
+2.tuple
+3.sets
+4.dictionary
+
+Lists:
+-------
+it's dynamic collection class,it stores string,numeric,floating values
+*lists is a mutable.mutable means it allows to make changes.
+*in lists we can rearange the data with the help of sorting
+*lists is defined using [] brackets 
+following examples demonstrates creation of lists & it's usages
+1)subject=["java","c","python","c#"]
+
+print(subject)
+print(len(subject))
+print(subject[1])
+print(subject[-1])
+
+to display the records using loops
+
+subject=["java","c","python","c#"]
+for i in subject:
+    print(i)
+
+1)write prg to concatinate 2 lists.
+l1=[5,6,7,8]
+l2=[1,2,3,4]
+l3=l1+l2
+print(l3)
+
+for i in l2:
+ l1.append(i)
+print(l1)
+l1.pop()
+print(l1)
+l1.insert(3,88)
+print(l1)
+
+*change the value of list item
+ThisList=["apple","banana","cherry"]
+->ThisList=["apple","banana","cherry"]
+ThisList[1]="orange"
+print(ThisList)
+
+2)write a prg to form a list of odd squre numbers ranging from 1-11
+->for i in range(1,11):
+    odd=i**2
+    if odd %2!=0:
+        print(odd)
+########################################
+3/11/23
+********
+TUPLE:-
+-------
+Tuple is a collection class,it's immutable class.
+immutable means the data stores in tuple cannot be changed,tupples are used to define constant values.
+in tuple the data stores in frequence formate.tuples are faster than list.
+following example demontates tuple:
+1)colors=("red","green","blue","yellow","white")
+print(colors)
+print(type(colors))
+print(len(colors))
+
+2)
+colors=("red","green","blue","yellow","white")
+print(colors)
+print(type(colors))
+colorlist=list(colors)
+print(len(colors))
+print(type(colorlist))
+colorlist.insert(2,"pink")
+print(colorlist)
+
+colorlist[4]="orange"
+print(colorlist)
+
+*tuple is immutable if we want to add some values we must convert tuple to list using insert method we can
+add new values or by using index number we can new values.
+*we can convert the list to the tuple to make it immutable by using tuple method.
+pass a parameteras list object name.
+
+SET:-
+-----
+*it is collection class,it is faster than list & tuple.it;s used to store non dublicate values.
+*set are defined using {}.all methematical operations like union & intersection.
+*set is collection of unordered data.
+set methods:-
+------------
+1)union:-it's used to combine 2 sets
+2)Discard:-it's used to delete a value,vlue wil be passed as a parameter.
+if parameter is found it will delete a value.
+if parameter is notfound it will not display any error message
+3)Remove:- this also takes a parameter,it search for the parameter if the parameter found it will delete it
+else it will raise error message.
+4)Pop:- it is used to delete the items from the set
+5)Intersection:- used to retrive the matching values from different set.
+
+Dictionary:
+*it is one of the most important collection class of python which stores the data in the form of
+key & value.key represents unit value or non-dublicnt.value may contain duplicate values
+example in a class student roll numbers are keys which are non-duplicant.names are values.
+keys & values are separated by colons. dictionary are defined using {} brackets 
+following are the some of main methods
+1)keys:- it's used to retrive of dictinary 
+2)Values():- it's used to retrive the values from dictionary
+3)Items:- it's used to retrive key & value
+4)Del:- This keyword is used dictionary or specific column.
+if we use del with dictionary name it will delete entire dictionary.
+if we use del with dictionary name or index or a key name it will delete that column 
+
+EXAMPLES:-
+*********
+1)
+Days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}
+
+subjects=set(["java","c"])
+
+print(Days)
+print(type(Days))
+print(type(subjects))
+print("looping through the set elements ... ")
+for i in Days:
+    print(i)
+
+2)
+Months = set(["January","February", "March", "April", "May", "June"])
+print("\nprinting the original set ... ")
+print(Months)
+print("\nRemoving some months from the set...");
+Months.pop();
+Months.pop();
+print("\nPrinting the modified set...");
+print(Months)
+
+3)
+Months = set(["January","February", "March", "April", "May", "June"])
+print("\nprinting the original set ... ")
+print(Months)
+print("\nRemoving items through discard() method...");
+Months.discard("Feb"); #will not give an error although the key feb is not available in the set
+print("\nprinting the modified set...")
+print(Months)
+print("\nRemoving items through remove() method...");
+Months.remove("Jan") #will give an error as the key jan is not available in the set.
+print("\nPrinting the modified set...")
+print(Months)
+
+4)
+s1={1,2,3}
+s2={2,3,6}
+s3={}
+s3=s1.copy()
+print(s3)
+print(s1.intersection(s2))
+
+5)
+Days1 = {"Monday","Tuesday","Wednesday","Thursday"}
+Days2 = {"Friday","Saturday","Sunday"}
+print(Days1.union(Days2))
+print(Days1|Days2)
+
+6)Reverse the tuple ,tuple={10,20,30,40,50}
+-> tuple1 = (10,20,30,40,50)
+   tuple1 = tuple1[::-1]
+    print(tuple1)
+
+7)Access value 20 from the tuple,tuple=("orange",[10,20,30],(5,15,25)
+
+8)swap 2 tupes in python 
+tuple1=(11,22)
+tuple2=(99,88)
+
+->tuple1=(11,22)
+tuple2=(99,88)
+tuple1,tuple2=tuple2,tuple1
+print("swapped tuple1",tuple1)
+print("swapped tuple2 ",tuple2)
+
+9)check if 2 lists of tuples are identical or not
+input:
+tuplist1=[(2,9),(5,6)]:
+tuple2=[(2,9),(5,6)]
+-->
+  tuplelist1=[(2,9),(5,6)]
+  tuplelist2=[(2,9),(5,6)]
+  if tuplelist1==tuplelist2:
+        print("tuplelist1 and tuplelist2 are identical")
+else:
+        print("not identical")
+#####################################################################
+
+4/11/23
+*********
+Exceptions:-
+ mistakes in program are called errors
+ mainly 2 types of errors
+ 1)
+    
+
+At the time of exicution if we get error it set to be run time error.when run time eror occurs
+program will be terminated abnormaly which may cause data loss or their are chances of memory damage which may 
+cause bad sector.
+to avoid run time erors exception handling is introduced
+by using Exception handling we can avoid abnormal termination.
+in python to handle exception 3 key words are used
+ 1)Try block:-it is used to trace the errors.if error found control will be transfered to the exception handling blocks,where the error
+ messages will be displayed
+ 2)except:-
+3)finaly:-it's garenty block which will execute irrespective of errors,if error is traced it will show error message then
+the control passes to finally block.if their is no errors contol directly passes to finaly block.
+following examples demonstrates exception handling:
+1)
+try:
+ print(x)
+except:
+ print("An exception occured")
+
+2)
+a=10
+b=0
+try:
+    x=a/b
+    print(x)
+except NameError:
+    print("variable x is not defined")
+except ZeroDivisionError:
+    print("enter a non zero number for b")
+
+3)write a program to demonstrate finally
+x=2
+try:
+    print(x)
+except:
+    print("something went wrong")
+finally:
+    print("the 'try except' is finished")
+
+FILE HANDLING:-
+-------------
+file is collection of text,string or alphanumeric
+in file 2 categaries
+1)text file 2)binary file
+file saved in har disk.the file can be accessed in different ways with the following permissions
+1)R:the 
+2)R+ the file opened in read & write form
+3)W: the file is opened in writing formate will over write if the file is already exist
+4)W+:it opened a file in read & write formate if the file exist it will overwrite.
+5)Append:whe we use A as a permission for existing file for new content.R+ is opened for appending & reading
+
+4)write program to create a file 
+f=open("c:\\pythonProject5\\pattern.txt","w")
+f.write("this is file creation demo")
+
+5)how to read the file.
+6)read file position
+
+6/11/23
+*******
+MODULES & FUNCTIONS:
+-------------------
+
+*in python functions are called as modules.these functions are reusable.if same set of code repetes again & again it can be returned
+ as a module.& we can call it as many times we want.modules are defined using key words def.
+def stands for defination,followed by the function.
+save the functions in a file the file name is used to accessthe module
+for example if we create a file by name my functions with a 2 methods show & sum.we can acess thes methods in sum other file
+by using import statements.followed by file name.aliase name using the keyword as. 
+syntax:- 
+        import my functons as my
+* to access the metod from the file use aliase name.function name.
+*create module as using math function
+simple interest 
+area of circle 
+EMI with 3 parameters with date of interest & time
+
+object oriented programming with python
+-----------------------------------------
+*in python we can create a classess by using a keyword class.followed by the class name. inpython we are going to use the
+constructor to create the objects the constructor is same name as class which is used to initialize the default values
+python followes all object oriented rules. it's 100% object oriented programming
+1)write a program to demonstrate the creation of student class with 1 object & display the content
+
+1.create directary file.
+->
+import os
+os.mkdir("c:/agadi/college1.txt")
+
+2.create a text file called internship
+->
+f=open("C:/agadi/college.txt","w+")
+f.write("read string:")
+
+3.write a message called
+"welcome to agadi college of engineering laxmeshwar"
+->
+f=open("C:/Users/Admin/PycharmProjects/pythonProject5/venv/deepika/internship","w+")
+f.write("Welcome to Agadi college of engineering Laxmeshwar")
+
+4.read a message from the text file.
+->
+f=open("C:/agadi/college.txt","r+")
+str=f.read(100)
+print("read string is:",str)
+
+5.rename the file.internship at vtu.
+import os
+os.rename("c:/agadi/college.txt","c:/agadi/college1.txt")
+
+6.remove the text file vtu.
+import os
+os.remove("c:/agadi/college1.txt")
+#########################################################################
+7/11/23
+*******
+CONSTRUCTOR:-
+-----------
+*in python a specialised constructor is used,as a function.it's a built in __init__ with parameter
+*self is 1st parameter to represent local variables,local variables will be initialised by using the parameters.
+*folowing examples demonstrates the constructor
+1)class student:
+    def __init__ (self,first,last,marks):
+        self.first=first
+        self.last=last
+        self.marks=marks
+        self.email=first+"."+last+'@gmail.co
+stud1=student("guru","N",60)
+stud2=student("siri","M",90)
+
+print(stud1.email)
+print(stud2.email)
+print('{}{}'.format(stud1.first,stud1.last))
+
+SET&GET METHODS:-
+*set methods are used to assign the value
+*get method is used to return the value.set takes the parameter this parameter will be initialised to local variable.
+
+INHERITANCE:-
+-----------
+*in python we can transefer the charactersitic to one pass to another pass.
+*to inherit a class we pass parent class name as parameter to the child class.
+syntax:-
+class one:
+  def abc():
+class two(one):
+  def xyz():
+
+
+class one is a super class or parent class with one method abc,parent class fetures will be transefered to 2nd class as a parameter.
+#####################################################################
+
+8/11/23
+********
+
+ARCHITECTURE:-
+------------
+one type architecture or single tire
+in 1 tire architecture the a single system acts as front end.
+server,cui & database are placed on single system
+eg:-foxpro
+
+Two tire architecture or client server architecture:-
+*in two type architecture programming & data base are separated
+*in client side programming is placed with visual basic as a language 
+
+DATA BASE:-
+---------
+* in dta base voracle is used
+
+Three tire architecture:-
+*in Three tire architecture programming is separated by graphical user interface
+*in the first tire web base applications are used.this layer is also called as user interface or client
+*to design user interface html,css,java script & angular are used.
+
+WEB SERVER:-
+* web server acts as meiater b/w client & data base.
+*it will read the data from html page process the data if required  it will communicte with data base
+
+DATA BASE SERVER:-
+*it's used for storage. the data will be stored in data base. following diagram shows list of languages used in each layer or tire
+Client:-HTML,CSS,JAVA SCRIPT,AJAX,ANGULAR
+Web server:-PHP,DJANGO,ASP,SERVER,Asp.net
+Data base:-oracle,mysql,obz
+###############################################
+
+10/11/23
+********
+1)create project by name sports
+2)create a app as cricket
+3)create html file to show ur favariote player
+#########################################################################
+
+16/11/23
+********
+Data base connectivity
+*start new project pip install jango==2.2.1
+*jango-admin start project project name
+*cd project name
+*python manage.py start app app name
+*create 4 folders template,assetes,static, & media
+*1st project folder(same folder name for 2 folders)
+*oppen settings.py file & add the app & add the templates
+*in templates folder create html formto read the item details
+ *from the app folder open urls.py file
+def additem(request):
+    if request.method == "POST":
+        s1 = request.POST.get('t1')
+        s2 = request.POST.get('t2')
+        s3 = request.POST.get('t3')
+        s4 = request.POST.get('t4')
+        return  render(request,"info.html")
+    return render(request, "info.html")
+TABLE CREATIONS & MIGGRESSIONS
+*python uses no sql for data base connectivity
+*we are going to create the tables by using class.this class definition is returns in models.py (this file is available in app folder)
+*open the terminal to generate the code this command will convert the classes to sql statements
+*python manage.py makemigrations
+*install my sql client drive by using following command
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
